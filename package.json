@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest src",
     "build:dev": "webpack --progress",
-    "build:watch": "webpack --watch --progress",
+    "build:watch": "webpack --watch --progress --mode=development",
     "build:prod": "webpack --progress -p"
   },
   "author": "Ravishankar S R",
